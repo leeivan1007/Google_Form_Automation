@@ -10,5 +10,5 @@ https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html
 
 如果要結合自己的xpath，可以進入開發人員工具，點選 html 點元素按右鍵
 
-<img width="500" height="300" src="https://github.com/chineseocr/chineseocr/blob/master/test/img1.png"/>
+<img  src="https://github.com/leeivan1007/Google_Form_Automation/blob/master/demo.png"/>
 
