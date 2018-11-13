@@ -8,7 +8,7 @@
 
 
 
-元素的操作可以參考「selenium」
+元素的操作可以參考「selenium」：
 https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html
 
 如果要結合自己的按鈕操作，可以針對xpath的邏輯做修改，
