@@ -63,7 +63,7 @@ def information_content():
         information = input('工作內容：')
         if information != '':
             break
-        print('幹是都沒在上班哦')
+        print('幹\n是都沒在上班哦')
     return information
 def information_hour():
     information = ''
