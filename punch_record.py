@@ -61,10 +61,9 @@ def information_content():
     information = ''
     while True:
         information = input('工作內容：')
-        if information == '':
-            print('幹是都沒在上班哦')
-        else:
+        if information != '':
             break
+        print('幹是都沒在上班哦')
     return information
 def information_hour():
     information = ''
@@ -113,7 +112,7 @@ def main():
     # 使用者填寫task資訊
     tasks = input_task_information()
 
-    email, password, form_url, user_name = load_config('config.txt')
+    email, password, form_url, user_name = load_config('Google_Form_Automation/config.txt')
 
     # 認證
 
