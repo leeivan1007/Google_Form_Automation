@@ -61,10 +61,9 @@ def information_content():
     information = ''
     while True:
         information = input('工作內容：')
-        if information == '':
-            print('幹是都沒在上班哦')
-        else:
+        if information != '':
             break
+        print('幹\n是都沒在上班哦')
     return information
 def information_hour():
     information = ''
