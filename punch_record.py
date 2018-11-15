@@ -112,7 +112,7 @@ def main():
     # 使用者填寫task資訊
     tasks = input_task_information()
 
-    email, password, form_url, user_name = load_config('Google_Form_Automation/config.txt')
+    email, password, form_url, user_name = load_config('config.txt')
 
     # 認證
 
