@@ -129,7 +129,7 @@ def main():
 
     driver.find_element_by_xpath('//input[@type="password"]').send_keys(password)
     driver.find_element_by_xpath('//span[contains(text(),"繼續")]').click()
-    investigate_by_xpath(driver, 10, '//input[@class="gsfi"]', '密碼輸入成功!')
+    investigate_by_xpath(driver, 10, '//img[@alt="Google"]', '密碼輸入成功!')
 
     # 進入表單
     driver.get(form_url)
