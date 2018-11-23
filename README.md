@@ -16,8 +16,3 @@ https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html
 或直接進入開發人員工具，點選 html 點元素按右鍵找xpath的值。
 
 <img width='500px' src="https://github.com/leeivan1007/Google_Form_Automation/blob/master/demo.png"/>
-
-```py
-import time
-time.sleep(10)
-```
